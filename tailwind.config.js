@@ -19,6 +19,7 @@ export default {
         BgColor: "#f6efea",
         TextBlack: "#1D1D1D",
         RecipeColor: "#fffdf4",
+        Yellow: "#F6C427",
       },
     },
   },
