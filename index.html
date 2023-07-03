@@ -111,7 +111,7 @@
     </section>
     <!-- popular item -->
     <section>
-      <div class="container p-6">
+      <div class="container p-6 grid space-y-4 place-items-center">
         <h4
           class="font-Nunito text-5xl text-TextBlack font-extrabold text-center mb-4"
         >
@@ -120,15 +120,32 @@
         <!-- first item card -->
         <div class="">
           <img
-            src="/Images/burgar-1 (1).jpg"
+            src="/Images/fry-chi.jpg"
             alt=""
             class="rounded-tr-3xl rounded-tl-3xl"
           />
           <div
             class="bg-TextBlack p-4 rounded-bl-3xl rounded-br-3xl flex items-center justify-between"
           >
-            <p class="text-white font-Nunito font-extrabold text-5xl">
+            <p class="text-white font-Nunito font-extrabold text-3xl">
               Chicken Fry
+            </p>
+            <img src="/Images/Dot-svg.svg" alt="" />
+            <p class="text-Yellow font-bold text-2xl font-Nunito">$400</p>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="">
+          <img
+            src="/Images/cheesfry.jpg"
+            alt=""
+            class="rounded-tr-3xl rounded-tl-3xl"
+          />
+          <div
+            class="bg-TextBlack p-4 rounded-bl-3xl rounded-br-3xl flex items-center justify-between"
+          >
+            <p class="text-white font-Nunito font-extrabold text-3xl">
+              Egg Fry
             </p>
             <img src="/Images/Dot-svg.svg" alt="" />
             <p class="text-Yellow font-bold text-2xl font-Nunito">$400</p>
@@ -137,9 +154,23 @@
       </div>
     </section>
     <!-- Reviews section -->
-    <section>
-      <div class="container">
-        <h2>Review section</h2>
+    <!-- Get in touch -->
+    <section class="container">
+      <div class="p-6 rounded-3xl bg-OrangeColor">
+        <h5 class="text-white font-Nunito text-4xl font-bold mb-3">
+          Get in Touch
+        </h5>
+        <p class="font-Nunito text-white text-2xl tracking-wide mb-3">
+          For more information About our Company or if There are Any Other
+          Question. Please Contact.
+        </p>
+        <input
+          type="email"
+          id="email"
+          class="bg-gray-50 border border-LightOrange text-gray-900 text-md rounded-3xl focus:border-OrangeColor block w-full p-2.5 mb-6"
+          placeholder="Search Recipe And More"
+          required
+        />
       </div>
     </section>
     <script type="module" src="/main.js"></script>
